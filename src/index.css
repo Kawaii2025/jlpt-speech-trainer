@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Remove default focus outline globally */
+@layer base {
+  *:focus {
+    outline: none;
+  }
+}
+
 /* Custom utility classes matching original HTML */
 @layer utilities {
   .content-auto {
@@ -26,5 +33,6 @@
     @apply bg-orange-100 text-orange-600;
   }
 }
+
 
 

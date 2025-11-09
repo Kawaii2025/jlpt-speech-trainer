@@ -30,6 +30,12 @@ export default {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         japanese: ['"Noto Sans JP"', 'sans-serif']
       },
+      ringColor: {
+        DEFAULT: 'rgba(59, 130, 246, 0.5)', // Default ring color for focus states
+      },
+      ringOffsetWidth: {
+        DEFAULT: '0px',
+      },
     }
   },
   plugins: [],
